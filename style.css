@@ -10,6 +10,8 @@
   animation-duration: 1.2s;
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
+  font-size: 2.5rem;
+  padding-left: 4rem;
 }
 @keyframes move-right {
   from
@@ -40,7 +42,7 @@
     #6bb97f
   );
 
-  color: white;
+  color: #ccc3c3;
   
 }
 
@@ -50,16 +52,16 @@
   list-style: none;
 }
 .menu ul li a {
-  color: white;
+  color: #ccc3c3;
   text-decoration: none;
-  padding: 0px 34px;
-  margin: 34px;
+  padding: 0rem 1rem;
+  margin: 1em;
 }
 .navbar .menu {
   display: flex;
   position: relative;
   right: -26%;
-  font-size: 21.6px;
+  font-size: 1.6em;
   justify-content: center;
   align-items: center;
   animation-name: moves-right;
@@ -80,20 +82,19 @@
   }
   
 }
-h1 {
-  font-size: 50px;
+/* .header{
+  font-size: 42px;
   padding-left: 40px;
 
   
-}
+} */
 
 
 .container .logo {
   height: 521%;
   /* border: 2px solid black; */
   position: relative;
-  left: 19%;
-  top: 20%;
+  left: 2%;
   margin: 2rem;
 }
 .container .logo img {
@@ -122,7 +123,7 @@ h1 {
   /* background-color: #07b89f; */
   background: url(img2.jpg);
   position: absolute;
-  left: 28px;
+  left: 4%;
   height: 104%;
   width: 128%;
   z-index: -1;
@@ -142,4 +143,21 @@ h1 {
 
 .container {
   display: flex;
+}
+.secondary
+{
+  position: relative;
+  top: -1%;
+  left: -41%;
+  font-size: 1.7rem;
+}
+#primary
+{
+  font-size: 3.5rem;
+  position: relative;
+  top: -14%;
+  left: 16%;
+  color: #a42222;
+
+ 
 }
