@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Baloo Bhaina 2";
+  height:auto;
+}
+.navbar h1{
+
+  animation-name: move-right;
+  animation-duration: 1.2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+@keyframes move-right {
+  from
+  {
+    position: relative;
+    right: 10rem;
+  }
+  to 
+  {
+    position: relative;
+    right: 0rem;
+  }
+  
+}
+.navbar {
+  display: flex;
+  /* border: 2px solid black; */
+  background: linear-gradient(
+    50deg,
+    #ee9032,
+    #f16d52,
+    #ec4a77,
+    #a063aa,
+    #7963aa,
+    #4b6eb5,
+    #109aaf,
+    #07b89f,
+    #6bb97f
+  );
+
+  color: white;
+  
+}
+
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 34px;
+  margin: 34px;
+}
+.navbar .menu {
+  display: flex;
+  position: relative;
+  right: -26%;
+  font-size: 21.6px;
+  justify-content: center;
+  align-items: center;
+  animation-name: moves-right;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+@keyframes moves-right {
+  from
+  {
+    position: relative;
+    right: 10rem;
+  }
+  to 
+  {
+    position: relative;
+    right: -26%;
+  }
+  
+}
+h1 {
+  font-size: 50px;
+  padding-left: 40px;
+
+  
+}
+
+
+.container .logo {
+  height: 521%;
+  /* border: 2px solid black; */
+  position: relative;
+  left: 19%;
+  top: 20%;
+  margin: 2rem;
+}
+.container .logo img {
+  height: 542px;
+  animation-name: moves;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+@keyframes moves {
+  from {
+    position: relative;
+    left: 10rem;
+  }
+  to {
+    position: relative;
+    left: 0rem;
+  }
+}
+/* .container .logo img:hover {
+  position: relative;
+  left: 1.5rem;
+} */
+.container .logo::before {
+  content: "";
+  /* background-color: #07b89f; */
+  background: url(img2.jpg);
+  position: absolute;
+  left: 28px;
+  height: 104%;
+  width: 128%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  animation-name: moves;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
